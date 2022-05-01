@@ -19,3 +19,4 @@ FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${VARIANT}
 # https://github.com/microsoft/vscode-dev-containers/blob/3d59f9fe37edb68f78874620f33dac5a62ef2b93/script-library/docs/github.md
 COPY library-scripts/github-debian.sh /tmp/library-scripts/
 RUN apt-get update && bash /tmp/library-scripts/github-debian.sh
+dateinBuyAmountinBuyAssetoutSellAmountoutSellAssetfeeAmount (optional)feeAsset (optional)classification (optional)operationId (optional)01/03/2018 06:00:005500USDairdrop03/17/2018 06:00:0010BTC04/05/2018 11:00:0010ETH09/07/2018 11:00:0010BTC11/23/2018 11:00:002000XRP12/25/2019 11:00:003000XRP01/25/2020 11:11:11100ETH05/15/2020 11:11:111500USD9USDpayment07/29/2020 11:11:11100ETH1BTC0.0001BTC
