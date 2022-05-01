@@ -1,4 +1,17 @@
----
+---date	inBuyAmount	inBuyAsset	outSellAmount	outSellAsset	feeAmount (optional)	feeAsset (optional)	classification (optional)	operationId (optional)		
+01/03/2018 06:00:00	5500	USD					airdrop			
+03/17/2018 06:00:00	10	BTC								
+04/05/2018 11:00:00	10	ETH								
+09/07/2018 11:00:00	10	BTC								
+11/23/2018 11:00:00	2000	XRP								
+12/25/2019 11:00:00	3000	XRP								
+01/25/2020 11:11:11	100	ETH								
+05/15/2020 11:11:11			1500	USD	9	USD	payment			
+07/29/2020 11:11:11	100	ETH	1	BTC	0.0001	BTC				
+										
+										
+										
+										
 title: Working with the Docker registry
 intro: '{% ifversion fpt or ghec %}The Docker registry has now been replaced by the {% data variables.product.prodname_container_registry %}.{% else %}You can push and pull your Docker images using the {% data variables.product.prodname_registry %} Docker registry.{% endif %}'
 product: '{% data reusables.gated-features.packages %}'
